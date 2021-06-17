@@ -21,8 +21,6 @@ h1{
   animation-duration: 2s;
 }
 
-
-
 .headDec {
   font-family: 'Josefin Sans', monospace;
   font-size: 82px;
@@ -39,10 +37,10 @@ h1{
   animation-name: slide;
   animation-duration: 2s;
 }
+
 @keyframes slide {
   from {
-    margin-left: -200px
-  
+    margin-left: -200px}
 }
 
 nav {
@@ -60,7 +58,7 @@ nav div {
   border-radius: 10px;
   font-weight: bold;
   font-variant: small-caps;
-  background-color: #c4d9ec;
+  background-color: #c4d9ec ;
   border-width: 4px;
   border: outset #ffe3f5;
   padding: 20px;
@@ -80,8 +78,7 @@ nav div:hover {
   50%  {background-color: #5da1cc;}
   100% {background-color: #C78BA5;}
 }
-  
-}
+
 
 nav div a {
   color: #060d20;
@@ -101,7 +98,7 @@ aside {
   margin-bottom: 10px;
   margin-top: 10px;
   height: 100%;
-  background-color: background-color: #d8c7d9;
+  background-color: #d8c7d9;
   background: linear-gradient(to right, #FFFFFF 0%, #C78BA5 100%, #C78BA5 100%);
 }
 
@@ -126,6 +123,7 @@ aside table tr td:first-of-type {
   animation-name: flexing;
   animation-duration: 5s;
 }
+
 @keyframes flexing {
   0% {height: 300px;}
   50% {height: 350px}
@@ -218,7 +216,7 @@ section h4{
   background: linear-gradient(135deg, #B55199 0%, #F7AFFC 50%, #B55199 100%); ;
 }
 
-.hobbies h2 p:hover{
+.hobbies h2 p:hover {
   animation-name: fun;
   animation-duration: 1s;
   animation-iteration-count: infinite;
@@ -231,11 +229,14 @@ section h4{
   75% {margin-right: 10px;}
   100% {margin-right: 20px}
   }
-}
 
 .hobbies div h3 {
   text-align: center;
   text-decoration: underline 1px;
+}
+
+.hobbies div p {
+  padding: 15px;
 }
 
 
@@ -245,7 +246,7 @@ section h4{
   box-shadow: 11px -9px 10px 0px #f7affc;
 }
 
-.basket:hover,.netflix:hover,.esport:hover {
+.basket:hover, .netflix:hover, .esport:hover {
   animation: heartBeat;
   animation-duration: 3s;
 }
@@ -267,7 +268,7 @@ td p:first-child{
   box-shadow: 11px -9px 10px 0px #f7affc;
 }
 
-.netflix2{
+.netflix2 {
   text-decoration: underline;
   margin-bottom: 2px;
   margin-left: 1px;
@@ -293,7 +294,12 @@ h2 {
   font-size: 32px;
 }
 
+h3{
+  text-align: center;
+}
+
 footer {
   background-color: #d8c7d9;
   text-align: justify;
   padding: 8px 0px 8px 20px;
+}
